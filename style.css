@@ -1,0 +1,52 @@
+img{
+	height:300px;
+	width:420px;
+	border:1px;
+	
+}
+#buy-amount{
+	display: flex;
+	justify-content: space-between;
+}
+
+#buy-amount button{
+	width:32px;
+	height:32px;
+	outline:none;
+	background-color:green;
+	border: 1px solid #ececec;
+	cursor: pointer;
+}
+#buy-amount #amount{
+	width: 40px;
+	text-align: center;
+	border: 1px solid #ececec;
+}
+#buy-amount button:hover{
+	background-color: #ececec;
+}
+#buy-amount button:svg{
+	color:#909090;
+}
+#buy-amount button:hover svg{
+	color:#4f4f4f;
+}
+.contenner{
+	
+}
+.btn-group{
+	margin-top: 12px;
+	height: 30px;
+	padding: 0 12px;
+	cursor: pointer;
+	border: none;
+	border-radius:5px;
+	transition: all 0.3s ease;
+}
+.btn-group button:hover{
+	background-color: blue;
+}
+..carousel-inner img{
+	height: 10px;
+	width:50%
+}
